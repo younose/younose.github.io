@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Yunus's Webpage</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Yunus' Webpage</h1>
+      <h2>Welcome everyone!</h2>
+    </div>
+
+    <div class="body">
+      <div id="gambar">
+       <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike.png" alt="my shop profile" />
+      </div>
+      <p>Hi, I am Yunus and this is my first webpage. Let's be a fullstack developer with Hacktiv8.</p>
+      <p>This is my target list :</p>
+      <ol>
+        <li>Being fullstack developer</li>
+        <li>Create a wonderful website</li>
+      </ol>
+      <p>Here is my contact :</p>
+      <ul>
+        <li>Email : mahmuyun@gmail.com</li>
+        <li>Phone : +62 858 4039 9109</li>
+      </ul>
+      <p>My Daily Routine</p>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Morning</th>
+            <th>Afternoon</th>
+            <th>Evening</th>
+            <th>Night</th>
+          </tr>
+         </thead>
+         <tbody> 
+          <tr>
+            <td>Monday</td>
+            <td colspan="4" rowspan="7" style="text-align:center; color:red; font-size:25px;">Eat, Coding, & Sleep</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+          </tr>
+          <tr>
+            <td>thursday</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+          </tr>
+         </tbody> 
+      </table>
+    </div>
+
+    <div class="comment">
+      <h3>Leave your comment below</h3>
+      <form>
+        First name: <br />
+        <input type="text" name="firstname"> <br />
+        Last name: <br />
+        <input type="text" name="lastname"> <br />
+        Gender : <br />
+        <input type="radio" name="gender" value="male" checked> Male <br />
+        <input type="radio" name="gender" value="female"> Female <br />
+        <input type="radio" name="gender" value="other"> Other <br />
+        Favorite Cars: <br />
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+       </select>
+       <br />
+       Language Spoken : <br />
+       <input type="checkbox" name="language1" value="Indonesia">Bahasa Indonesia <br />
+       <input type="checkbox" name="language2" value="English">English <br />
+       <input type="checkbox" name="language3" value="other">Other <br />
+       
+       Bio <br />
+       <textarea name="message" rows="10" cols="30"></textarea> <br />
+       <input type="submit">
+      </form>
+    </div>
+  </body>
+</html>
