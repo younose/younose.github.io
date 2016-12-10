@@ -5,8 +5,21 @@ My Profile Page
 This will be my profile page. For now it's just a page that I created for exercise during coding bootcamp at hacktiv8. I will fix it later.
 
 ## Used Tags & Syntaxes
-This page use <html>, <head>, <body>, <title>, <h1>, <h3>, <p>, <img>
-<link>, <div>, <ol>, <li>, <table> tags etc..
+This page use 
+* html
+* head
+* body
+* title
+* h1
+* h3
+* p
+* img
+* link
+* div
+* ol
+* li
+* table
+* etc..
 
 
 ## About Me
