@@ -16,8 +16,8 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background-image: url("https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/29258194_1381867348625945_55229830567821312_n.jpg?_nc_cat=0&oh=c162e0c0572fa3e205a0dd3c2b7ee2d9&oe=5B99BA9E"");
-    }
+  background: #fff;
+}
 
 #page {
   position: relative;
@@ -1840,31 +1840,4 @@ form label {
   opacity: 0;
 }
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-}
-
-#clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
-}
-
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
-    display: inline-block;
-}
-
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-}
 /*# sourceMappingURL=style.css.map */
